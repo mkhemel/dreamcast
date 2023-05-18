@@ -13,10 +13,11 @@ window.addEventListener("scroll",()=>{
 
 
 
-var coverflow=$("#coverflow").flipster();
+var coverflow=$("#carousel").flipster();
 var carousel=$("#carousel").flipster({
     style:'carousel',
     spacing:-0.5,
-    nav:true,
-    button:true,
+    nav:false,
+    buttons:true,
+    loop: true,
 });

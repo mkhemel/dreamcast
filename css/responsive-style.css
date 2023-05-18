@@ -1,0 +1,179 @@
+/**extra extra large device css start**/
+@media (min-width: 1400px) {
+    * {
+      word-wrap: break-word;
+    }
+  
+  }
+  
+  /**extra extra large device css end**/
+  /**extra large device css start**/
+  @media (min-width: 1200px) and (max-width: 1399.99px) {
+    * {
+      word-wrap: break-word;
+    }
+    
+  }
+  /**extra large device css end**/
+  /**large device css start**/
+  @media (min-width: 992px) and (max-width: 1199.99px) {
+    * {
+      word-wrap: break-word;
+    }
+    .banner-content{
+
+      top: 35%!important;
+  }
+    .banner-heading span{
+
+      line-height:85px!important;
+  }
+  .banner-heading span:nth-child(1){
+      font-weight: 400!important;
+      font-size: 65px!important;
+      word-spacing:2px!important;
+  }
+  .banner-heading span:nth-child(2){
+      font-weight: 500!important;
+      font-size: 85px!important;
+  }
+  .banner-heading span:nth-child(3){
+      font-weight: 300!important;
+      font-size:50px!important;
+      word-spacing: 1!important;
+  }
+  .menu li a{
+    margin: 0 2px!important;
+   
+    font-weight: 400!important;
+  
+    font-size:14px!important;
+   
+}
+
+   
+  }
+  /**large device css end**/
+  
+  /**medium device css start**/
+  @media (min-width: 768px) and (max-width: 991.99px) {
+    * {
+      word-wrap: break-word;
+    }
+    .custom-navbar-collapse{
+        background-color: #0a0a0a;
+    }
+    .being-dreamcast, .we-do, .our-team {
+        padding: 5px 0;
+    }
+    .banner-content{
+
+      top: 35%!important;
+  }
+    .banner-heading span{
+
+      line-height:70px!important;
+  }
+  .banner-heading span:nth-child(1){
+      font-weight: 400!important;
+      font-size: 55px!important;
+      word-spacing:2px!important;
+  }
+  .banner-heading span:nth-child(2){
+      font-weight: 500!important;
+      font-size: 65px!important;
+  }
+  .banner-heading span:nth-child(3){
+      font-weight: 300!important;
+      font-size:45px!important;
+      word-spacing: 1!important;
+  }
+  
+ 
+  
+  }
+  /**medium device css end**/
+  /***small device css start**/
+  @media (min-width: 576px) and (max-width: 767.99px) {
+    * {
+      word-wrap: break-word;
+    }
+    .custom-navbar-collapse{
+        background-color: #0a0a0a;
+    }
+    
+    .being-dreamcast, .we-do, .our-team {
+        padding: 0px 0;
+    }
+    .banner-content{
+
+      top: 35%!important;
+  }
+    .banner-heading span{
+
+      line-height:60px!important;
+  }
+  .banner-heading span:nth-child(1){
+      font-weight: 400!important;
+      font-size: 45px!important;
+      word-spacing:2px!important;
+  }
+  .banner-heading span:nth-child(2){
+      font-weight: 500!important;
+      font-size: 60px!important;
+  }
+  .banner-heading span:nth-child(3){
+      font-weight: 300!important;
+      font-size:40px!important;
+      word-spacing: 1!important;
+  }
+
+  
+  }
+  
+  /***small device css end**/
+  
+  /*****extra small device css start***/
+  @media (max-width: 575.99px) {
+    * {
+      word-wrap: break-word;
+    }
+    .custom-navbar-collapse{
+        background-color: #0a0a0a;
+    }
+    .being-dreamcast, .we-do, .our-team {
+        padding: 0px 0;
+    }
+    .banner-content{
+
+      top: 40%!important;
+  }
+    .banner-heading span{
+
+      line-height: 45px!important;
+  }
+  .banner-heading span:nth-child(1){
+      font-weight: 400!important;
+      font-size: 35px!important;
+      word-spacing:2px!important;
+  }
+  .banner-heading span:nth-child(2){
+      font-weight: 500!important;
+      font-size: 45px!important;
+  }
+  .banner-heading span:nth-child(3){
+      font-weight: 300!important;
+      font-size:30px!important;
+      word-spacing: 1!important;
+  }
+  
+ 
+  }
+  /*****extra small device css end***/
+  
+
+  @media (min-width: 1400px) {
+    .we-do .img-container {
+        width: 35% !important;
+    }
+  }

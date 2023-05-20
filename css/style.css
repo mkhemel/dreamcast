@@ -109,7 +109,7 @@ p{
     color: white;
 }
 .nav-link:hover{
-    color: #218721!important;
+    color: #236b30!important;
 }
 
 .banner-heading span{
@@ -139,10 +139,8 @@ p{
     top: 0;
     right: 0;
     width: 100%;
-    z-index: 999999999;
-    box-shadow: -3px 4px 17px -2px rgba(0,0,0,0.82);
-    -webkit-box-shadow: -3px 4px 17px -2px rgba(0,0,0,0.82);
-    -moz-box-shadow: -3px 4px 17px -2px rgba(0,0,0,0.82);
+    z-index: 9999;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 .bright-menu li a{
     color: rgb(43, 42, 42);
@@ -211,10 +209,10 @@ p{
   width: 100%;
 }
 .nav-link:active{
-    color: #218721!important;
+    color: #236b30!important;
 }
 .nav-link:focus, .nav-link:hover {
-    color: #218721!important;
+    color: #236b30!important;
 }
 
 .contact-section{
@@ -295,7 +293,7 @@ p{
 }
 
 .theme-primary{
-    color: #218721;
+    color: #236b30;
 }
 
 .contact-hero-p{
@@ -320,4 +318,38 @@ button.flipster__button svg{
 }
 .black{
     color: #000!important;
+}
+.team-image-card{
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.team-info-card{
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 10px 10px 0 0;
+    padding: 20px 5px;
+    display: none;
+    animation-duration: 1s;
+}
+
+.team-image-card:hover .team-info-card{
+    display: block;
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+
+@keyframes bounce {
+    0%   { transform: translateY(100px); }
+    100% { transform: translateY(0); }
+}
+
+.team-name{
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.team-desc{
+    font-size: 13px;
 }

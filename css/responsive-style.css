@@ -198,6 +198,9 @@
 .team-info-card{
   display: block;
 }
+.custom-navbar .container{
+  max-width: 100%!important;
+}
   
   }
   
@@ -274,6 +277,9 @@
 }
 .team-info-card{
   display: block;
+}
+.custom-navbar .container{
+  max-width: 100%!important;
 }
   }
   /*****extra small device css end***/

@@ -22,4 +22,5 @@ var carousel=$("#carousel").flipster({
     buttons:true,
     loop: true,
     scrollwheel: false,
+    autoplay:false,
 });

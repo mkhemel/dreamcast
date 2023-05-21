@@ -40,6 +40,10 @@ ul,ol,li{
 .facebook a{
    color: #4867AA;
 }
+.social-icons{
+ display: flex;
+ flex-direction: unset;
+}
 .social-icons li a{
   margin: 0px 15px;
   font-size: 16px;
@@ -80,7 +84,7 @@ p{
     font-weight: 500;
 }
 .title-tag{
-    margin: 10px 0 40px;
+    margin: 4px 0 40px;
     color: #626161;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -99,11 +103,15 @@ p{
 .we-do .title{
     font-weight: 700;
 }
-.gallary img{
-   height: 100%;
+.img-resize{
+    height: 405px;
+    object-fit: cover;
+    object-position:center center ;
 }
 .content-title{
-    font-size: 20px;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
 }
 .custom-toggler-icon i{
     color: white;
@@ -158,7 +166,7 @@ p{
     height:2px;
     width: 57%;
     background-color:#21632d ;
-    margin: 30px 0 90px auto;
+    margin: 30px 0 50px auto;
 }
 .c-img-container{
     width: fit-content;
@@ -239,7 +247,7 @@ p{
     font-size: 14px;
     font-weight: 300;
     margin-bottom: 10px;
-    margin: 10px auto!important;
+    margin:  0 auto 20px auto!important;
     padding: 15px;
     border-radius: 0;
 }
@@ -264,6 +272,7 @@ p{
     font-size: 15px;
     font-weight: 400;
     color: #313131;
+    max-width: 300px;
 }
 
 .contact-btn{
@@ -272,6 +281,11 @@ p{
     border: none;
     color: #fff;
     padding: 10px;
+    
+}
+.contact-btn:focus{
+    outline: none!important;
+    box-shadow: none!important;
 }
 
 .contact-btn:hover{
@@ -352,4 +366,34 @@ button.flipster__button svg{
 
 .team-desc{
     font-size: 13px;
+}
+.client .logo-area .slide img{
+    width: 100px;
+}
+.client-area{
+    padding:150px 0 0;
+}
+.slick-slide{
+    margin: 0 20px
+}
+.slick-slide img{
+    width: 100%;
+}
+.slick-list:focus{
+   outline:none; 
+}
+.slick-slide{
+    display:none;
+    float:left;
+    height: 100%;
+    min-height: 1px;
+
+}
+.custom-navbar-toggler-btn{
+    border: none!important;
+    outline: none!important;
+    box-shadow: none!important;
+}
+.navbar-toggler-icon {
+    height:auto;
 }

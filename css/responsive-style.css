@@ -122,6 +122,9 @@
 .title{
   margin-bottom:10px;
 }
+.team-info-card{
+  display: block;
+}
   
   }
   /**medium device css end**/
@@ -192,7 +195,9 @@
 .title{
   margin-bottom:10px;
 }
-
+.team-info-card{
+  display: block;
+}
   
   }
   
@@ -266,6 +271,9 @@
 }
 .client-area{
   padding:10px 0;
+}
+.team-info-card{
+  display: block;
 }
   }
   /*****extra small device css end***/

@@ -340,6 +340,7 @@ button.flipster__button svg{
 .team-image-card{
     overflow: hidden;
     border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
 .team-info-card{
